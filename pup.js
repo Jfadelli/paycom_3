@@ -36,5 +36,5 @@ async function loginWithPuppeteer(user, password, pin) {
 }
 
 // Test the function with sample credentials
-export default loginWithPuppeteer(user, password, pin);
+loginWithPuppeteer(user, password, pin);
 
